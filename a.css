@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+
+
+header{
+    width: Fixed (1,296px)px;
+    height: 109px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+
+
+.img{
+    display: flex;
+    gap: 15px;
+}
+
+header nav a{
+    width: 60px;
+    height: 20px;
+    font-size: 14px;
+    color: #fff;
+    margin: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.contacttgwk{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.contacttgwk button{
+    width: 171px;
+    height: 42px;
+    border: 2px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.contacttgwk img{
+    cursor: pointer;
+}
+
+.star{
+    display: flex;
+    gap: 27px;
+    align-items: center;
+}
+
+.box{
+    width: 600px;
+    height: 337px;
+}
+
+.text p{
+    width: 600px;
+    height: 180px;
+    font-size: 64px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+
+.box button{
+    width: 278px;
+    height: 52px;
+    border: 3px solid rgba(61, 50, 79, 1);
+    border-radius: 12px;
+    color: #fff;
+    font-size: 17px;
+    background-color: rgba(61, 50, 79, 1);
+    cursor: pointer;
+}
+
+.intereres{
+    width: 1296px;
+    height: 250px;
+    display: flex;
+}
+
+.boxforinterer{
+    background-color: rgba(240, 251, 255, 0.5);
+    width: 340px;
+    height: 168px;
+    padding: 20px 24px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    margin-right: 40px;
+}
+.boxforinterer p{
+    font-size: 15px;
+    color: #fff;
+}
+
+.money{
+    width: 136px;
+    height: 34px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.strahovka button{
+    width: 120px;
+    height: 42px;
+    background-color: rgba(61, 50, 79, 1) ;
+    border-radius: 8px;
+    padding: 12px 20px;
+    color: #fff;
+    border: 2px solid rgba(61, 50, 79, 1);
+}
+
+
+body{
+    background-image: url(img/photo_2023-12-18_22-38-07.jpg);
+    width: 100%;
+    height: 100vh;
+    
+    background-size: cover;
+}
+main{
+    padding: 10px 230px;
+}
+
+.Aboute {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(img/bgc.png);
+    padding: 10px 230px;
+}
+
+.kafolat{
+    width: 858px;
+    height: 582px;
+}
+
+.kafolat h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.kafolat p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.kafolat button{
+    border: 2px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 278px;
+    height: 57px;   
+}
+
+.kafolatfor {
+    display: flex;
+}
+
+.interyer2 {
+    width: 416px;
+    height: 470px;
+    background-color: #b3a2a29d;
+    border-radius: 20px;
+    padding: 13px 19px;
+}
+
+.blue {
+    background-color: rgba(61, 50, 79, 1) ;
+    border-radius: 8px;
+    padding: 12px 20px;
+    color: #fff;
+    outline:none ;
+    cursor: pointer;
+}
+.White{
+    border: 2px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.interyer2 button {
+    width: 150px;
+    height: 37px;
+    margin: 20px 0;
+}
+
+.interyer2 p{
+    color: #fff;
+    margin: auto;
+}
+
+.Aboute header{
+    width: Fixed (1,296px)px;
+    height: 109px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.Apartemets {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.apartament {
+    width: 416px;
+    height: 470px;
+    background-color: #b3a2a29d;
+    border-radius: 20px;
+    padding: 13px 19px;
+    margin-right: 13px;
+}
+.apartament img{
+    width: 100%;
+}
+
+.apartament h1{
+    color: #fff;
+    margin: 15px 0;
+}
+
+.apartament p{
+    color: #fff;
+}
+
+.windows {
+    display: flex;
+    flex-flow: column wrap;
+    height: 100%;
+}
+
+.text {
+    color: #fff;
+}
+
+.text h1{
+    font-size: 40px;
+}
+.windows_text{
+    display: flex;
+}
+
+.windows_text  p{
+    font-size: 20px;
+}
+.windows1{
+    display: flex;
+    gap: 15px 15px;
+}
+
